@@ -1,7 +1,7 @@
 app_name = "assignment"
 app_title = "Akhilam Assignment"
 app_publisher = "Alfiya Hussain"
-app_description = "A custom app to create timesheet based oand checkout"
+app_description = "A custom app to create timesheet based on checkin and checkout"
 app_email = "alfiyahussainicfoss@gmail.com"
 app_license = "mit"
 
@@ -39,6 +39,10 @@ app_license = "mit"
 # webform_include_js = {"doctype": "public/js/doctype.js"}
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
+#doctype_js = {
+ #   "Settings": "public/js/assignment.js", 
+#}
+
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 
@@ -47,6 +51,7 @@ app_license = "mit"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
+
 
 # Svg Icons
 # ------------------
