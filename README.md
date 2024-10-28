@@ -4,7 +4,7 @@ ERPNext Custom App to generate timesheet based on Employee Checkins.
 =======
 ## Akhilam Assignment
 
-A custom app to create timesheet based oand checkout
+A custom app to create timesheet based on employee checkin and checkout
 
 #### License
 
