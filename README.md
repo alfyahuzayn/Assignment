@@ -19,3 +19,6 @@ This project provides a custom ERPNext doctype `Settings_TS` that includes funct
 ## Requirements
 - ERPNext version 15.39.3 or higher
 - Frappe version 15.45.1 or higher
+
+# Note
+Please ignore the "Timesheet is not created" message. The timesheet will be created if there are even number of check-ins. I am working on the error now.
