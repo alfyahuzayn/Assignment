@@ -10,7 +10,7 @@
 frappe.ui.form.on('Settings_TS', {
     refresh: function(frm) {
         frm.add_custom_button(__('Generate Timesheet'), function() {
-            // Perform the desired action: call the Python method to generate the timesheet
+            // Call the Python method to generate the timesheet
             frappe.call({
                 method: "assignment.akhilam_assignment.doctype.settings_ts.settings_ts.generate_timesheet",  // Update with the correct method path
                 args: {
